@@ -26,7 +26,7 @@
   tasks:
     - name: Waiting for keycloak to install completely.
       pause:
-        seconds: 10 
+        seconds: 300 
 
 # Separate play for init to keep sequence of execution
 - hosts: console
